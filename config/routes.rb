@@ -1,4 +1,18 @@
 Cupidicon::Application.routes.draw do
+  get "welcome/index"
+
+  get "welcome/need_content"
+
+  get "welcome/write_content"
+
+  get "welcome/share_content"
+
+  get "welcome/loves_lexicon"
+
+  get "welcome/about"
+
+  root to: 'welcome#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
