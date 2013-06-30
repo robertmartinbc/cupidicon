@@ -8,5 +8,8 @@
 <p><%= @post.cost %></p>
 <p><%= @post.style %></p>
 <p><%= @post.instructions %></p>
-<%= link_to "Edit", edit_post_path(@post), class: 'btn btn-mini' %>
+
+<% if can? :edit, @post %>
+	<%= link_to "Edit", edit_post_path(@post), class: 'btn btn-mini' %>
+<% end %>
 
