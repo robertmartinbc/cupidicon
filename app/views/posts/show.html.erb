@@ -1,2 +1,12 @@
 <h1><%= @post.title %></h1>
 <p><%= @post.body %></p>
+<p><%= @post.category %></p>
+<p><%= @post.word_count %></p>
+<p><%= @post.language %></p>
+<p><%= @post.rating %></p>
+<p><%= @post.key_words %></p>
+<p><%= @post.cost %></p>
+<p><%= @post.style %></p>
+<p><%= @post.instructions %></p>
+<%= link_to "Edit", edit_post_path(@post), class: 'btn btn-mini' %>
+

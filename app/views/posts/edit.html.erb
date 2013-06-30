@@ -1,2 +1,86 @@
-<h1>Posts#edit</h1>
-<p>Find me in app/views/posts/edit.html.erb</p>
+<h1>New Article</h1>
+
+<div class="row">
+	<div class="span-6">
+		<p>Guidelines for new articles:</p>
+		<ul>
+			<li>Make sure title is appropriate.</li>
+			<li>Provide a description for your article.</li>
+			<li>Make sure title is appropriate.</li>
+			<li>Provide a description for your article.</li>
+			<li>Make sure title is appropriate.</li>
+			<li>Provide a description for your article.</li>
+			<li>Make sure title is appropriate.</li>
+			<li>Provide a description for your article.</li>
+		</ul>
+	</div>
+	<div class="span-6">
+		<%= form_for @post, html: { class: 'form-horizontal' } do |f| %>
+			<div class="control-group">	
+				<%= f.label :title, class: 'control-label' %>
+				<div class="controls">
+					<%= f.text_field :title %>
+				</div>
+			</div>
+			<div class="control-group">
+        		<%= f.label :body, class: 'control-label' %>
+        			<div class="controls">
+          				<%= f.text_area :body, rows: 2 %>
+        			</div>
+      		</div>
+      		<div class="control-group">
+        		<%= f.label :category, class: 'control-label' %>
+        			<div class="controls">
+          				<%= f.text_field :category %>
+        			</div>
+      		</div>
+      		<div class="control-group">
+        		<%= f.label :word_count, class: 'control-label' %>
+        			<div class="controls">
+          				<%= f.text_field :word_count %>
+        			</div>
+      		</div>
+      		<div class="control-group">
+        		<%= f.label :language, class: 'control-label' %>
+        			<div class="controls">
+          				<%= f.text_field :language %>
+        			</div>
+      		</div>      		
+      		<div class="control-group">
+        		<%= f.label :rating, class: 'control-label' %>
+        			<div class="controls">
+          				<%= f.text_field :rating %>
+        			</div>
+      		</div>
+      		<div class="control-group">
+        		<%= f.label :key_words, class: 'control-label' %>
+        			<div class="controls">
+          				<%= f.text_field :key_words %>
+        			</div>
+      		</div>
+      		<div class="control-group">
+        		<%= f.label :cost, class: 'control-label' %>
+        			<div class="controls">
+          				<%= f.text_field :cost %>
+        			</div>
+      		</div>
+      		<div class="control-group">
+        		<%= f.label :style, class: 'control-label' %>
+        			<div class="controls">
+          				<%= f.text_field :style %>
+        			</div>
+      		</div>
+      		<div class="control-group">
+        		<%= f.label :instructions, class: 'control-label' %>
+        			<div class="controls">
+          				<%= f.text_area :instructions, rows: 2 %>
+        			</div>
+      		</div>
+      		<div class="control-group">
+        		<div class="controls">
+          			<%= f.submit "Save", class: 'btn' %>
+        		</div>
+      		</div>
+    	<% end %>
+    </div>
+</div>
