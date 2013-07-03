@@ -1,8 +1,13 @@
 Cupidicon::Application.routes.draw do
 
+  get "profile/index"
+
+  get "profile/my_posts"
+
   devise_for :users
 
   resources :posts
+
    
 
   match "need_content" => "welcome#need_content", via: :get
@@ -14,6 +19,9 @@ Cupidicon::Application.routes.draw do
   match "loves_lexicon" => "welcome#loves_lexicon", via: :get 
 
   match "about" => "welcome#about", via: :get
+
+
+
 
   
 
