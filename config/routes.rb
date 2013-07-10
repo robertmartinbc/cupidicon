@@ -1,12 +1,12 @@
 Cupidicon::Application.routes.draw do
 
-  get "profile/index"
 
-  get "profile/my_posts"
 
   devise_for :users
 
   resources :posts
+
+  resources :users, only: [:show]
 
    
 

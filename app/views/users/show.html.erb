@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="span12">
+    <div class="media">
+      
+      <div class="media-body">
+        <h2 class="media-heading"><%= @user.name %></h2>
+        <small>
+          <%= pluralize(@user.posts.count, 'post') %>
+        </small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<div class="row">
+  <div class="tabbable">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#posts" data-toggle="tab">Articles</a></li>
+      <li><a href="#comments" data-toggle="tab">Comments</a></li>
+      <li><a href="#" data-toggle="tab">Assignments</a></li>
+      <li><a href="#" data-toggle="tab">Account</a></li>
+      <li><a href="#" data-toggle="tab">Feedback</a></li>
+      <li><a href="#" data-toggle="tab">Withdraw Funds</a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane active" id="posts">
+        
+      </div>
+      <div class="tab-pane" id="comments">
+        
+      </div>
+      <div class="tab-pane" id="assignments">
+        
+      </div>
+      <div class="tab-pane" id="account">
+        
+      </div>
+      <div class="tab-pane" id="feedback">
+        
+      </div>
+      <div class="tab-pane" id="withdraw_funds">
+        
+      </div>
+    </div>
+  </div>
+</div>
