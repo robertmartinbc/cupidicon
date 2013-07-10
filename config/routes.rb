@@ -8,6 +8,7 @@ Cupidicon::Application.routes.draw do
 
   resources :users, only: [:show]
 
+
    
 
   match "need_content" => "welcome#need_content", via: :get
