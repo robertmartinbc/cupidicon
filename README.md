@@ -16,7 +16,7 @@ Anyone can read the articles in search of inspiration.
 
 * Clients register and post requests for articles to be written by authors. They stipulate a fee they are willing to pay for the article. They will have their own account page to manage their requests. 
 
-* Authors can register and select articles to be written. Every author is given a status of novice and their work will be vetted by an administrator. Depending on the qulaity of the work and the frequency of submissions, their ranking will rise accordingly. They will be have a profile page where they can view their work and manage ongoing requests.
+* Authors can register and select articles to be written. Every author is given a status of novice and their work will be vetted by an administrator. Depending on the qulaity of the work and the frequency of submissions, their ranking will rise accordingly. They will have a profile page where they can view their work and manage ongoing requests.
 
 * Readers can navigate the site and view the works submitted by authors and requests by clients. They cannot view a particular request unless they register. They will be able to see an overview of the reuqest but not particular requirements.
 

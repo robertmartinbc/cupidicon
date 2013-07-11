@@ -2,7 +2,7 @@
 
 # User's expectations
 
-* I am a user. I would like to be able to request authors to write articles for me, within a designated time frame, that I am willing to pay for. The price will I am willing to pay will be set by me.
+* I am a user. I would like to be able to request authors to write articles for me, within a designated time frame, that I am willing to pay for. The price I am willing to pay will be set by me.
 
 * I want to be able to present the request to a pool of authors to fulfil my request. Once the request is fulfilled, I will decide whether the writing meets my requirements. 
 
@@ -21,7 +21,7 @@
 
 # Author's expectations
 
-* I am an author. I would like to fulfil reuqests made by users. 
+* I am an author. I would like to fulfil requests made by users. 
 
 * I would like to be able to select an article that I would like to write within the given time frame and the payment indicated.
 
@@ -43,6 +43,8 @@
 * An author can only work on one article at a time. Once they commit to writing the article, this is removed from the general pool.
 
 * An author will only have access to the general pool once they have submitted the request to the user to accept or reject. Or they decide that they do not wish to write the article, upon which the article is placed back in the general pool and the author can select another project.
+
+
 
 
 
