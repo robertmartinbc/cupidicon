@@ -21,10 +21,11 @@
 <p><%= @post.cost %></p>
 <p><%= @post.style %></p>
 <p><%= @post.instructions %></p>
-<div class="span4">
+<div class="span6">
 	<% if can? :edit, @post %>
-	<%= link_to "Edit", edit_post_path(@post), class: 'btn btn-mini' %>
+	<%= link_to "Edit", edit_post_path(@post), class: 'btn btn-large' %>
 <% end %>
+<%= link_to "I want to write this assignment", "#", class: 'btn btn-large' %>
 </div>
 
 </div>

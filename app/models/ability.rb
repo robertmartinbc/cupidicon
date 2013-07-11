@@ -24,7 +24,7 @@ class Ability
         can :manage, :all 
     end
 
-    can :read, :all 
+    can :read
   end
 end
 
