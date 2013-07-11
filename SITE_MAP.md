@@ -1,6 +1,14 @@
-# This file will explain what urls should be for various actions
+# This file will explain what urls should be for various actions. It will also provide an explanation on the types of initial views required for users and authors.
 
-# A typical user roles
+# View for Users
+
+* A user will be required to sign up via the sign up page. Once signed up, they will be redirected to the user profile page. This view will provide an overview of their profile. They will be able to edit their profile within this view. They will also have horizontal tabs detailing their account, the articles they have requested to be written, their favorite authors, their feedback provided, the ability to add or withdraw funds. They can also choose to close their account if desired.
+
+# View for authors
+
+* An author wil be required to sign up via the sign up page. Once signed up, they will be redirected to the author profile page. This view will provide an overview of their profile. They will be able to edit their profile within this view. They will also have horizontal tabs detailing their account, the articles they have written and submitted, the feedback they have been provided, the ability to add or withdraw funds. They can also choose to close their account if desired.
+
+# A typical users roles
 
 * A user should be able to register for an account                                        - cupidicon/sign_up
 * A user should be able to upload an Avatar                                               - cupidicon/sign_up
